@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseAI - التغذية</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="logo">PulseAI</div>
+      <nav>
+        <a href="symptoms.html">الأعراض</a>
+        <a href="nutrition.html" class="active">التغذية</a>
+        <a href="fitness.html">اللياقة</a>
+      </nav>
+      <div class="actions">
+        <button id="langBtn">AR</button>
+        <button id="themeBtn">🌙</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="card">
+          <h2>تحليل التغذية</h2>
+          <input id="nutInput" placeholder="اكتب نظامك الغذائي...">
+          <button onclick="analyzeNutrition()">تحليل</button>
+          <button onclick="addToFavorites('تحليل تغذية', 'خطة غذائية')">⭐ حفظ</button>
+          <div id="nutResult" class="result"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
