@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseAI - اللياقة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="logo">PulseAI</div>
+      <nav>
+        <a href="symptoms.html">الأعراض</a>
+        <a href="nutrition.html">التغذية</a>
+        <a href="fitness.html" class="active">اللياقة</a>
+      </nav>
+      <div class="actions">
+        <button id="langBtn">AR</button>
+        <button id="themeBtn">🌙</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="card">
+          <h2>تحليل اللياقة</h2>
+          <input id="fitInput" placeholder="اكتب مستوى لياقتك...">
+          <button onclick="analyzeFitness()">تحليل</button>
+          <button onclick="addToFavorites('تحليل لياقة', 'خطة تمرين')">⭐ حفظ</button>
+          <div id="fitResult" class="result"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
