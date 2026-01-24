@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseAI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="logo">PulseAI</div>
+      <nav>
+        <a href="symptoms.html">الأعراض</a>
+        <a href="nutrition.html">التغذية</a>
+        <a href="fitness.html">اللياقة</a>
+      </nav>
+      <div class="actions">
+        <button id="langBtn">AR</button>
+        <button id="themeBtn">🌙</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-card">
+          <h1>PulseAI</h1>
+          <p>منصة صحية ذكية: أعراض + تغذية + لياقة</p>
+          <div class="btns">
+            <a class="btn" href="symptoms.html">ابدأ بالأعراض</a>
+            <a class="btn" href="nutrition.html">ابدأ بالتغذية</a>
+            <a class="btn" href="fitness.html">ابدأ باللياقة</a>
+          </div>
+          <div class="contact">
+            <a href="mailto:mb2453504@gmail.com">Email</a>
+            <a href="https://wa.me/201223547704">WhatsApp</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
